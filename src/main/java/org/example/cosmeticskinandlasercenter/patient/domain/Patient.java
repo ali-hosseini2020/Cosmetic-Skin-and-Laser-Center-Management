@@ -5,9 +5,11 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Past;
 import jakarta.validation.constraints.Pattern;
 import lombok.*;
+import org.example.cosmeticskinandlasercenter.appointment.domain.Appointment;
 import org.example.cosmeticskinandlasercenter.common.audit.AuditableEntity;
 import org.example.cosmeticskinandlasercenter.common.enums.BloodType;
 import org.example.cosmeticskinandlasercenter.common.enums.Gender;
+import org.example.cosmeticskinandlasercenter.medical.domain.MedicalRecord;
 import org.example.cosmeticskinandlasercenter.treatment.domain.TreatmentPlan;
 
 import java.time.LocalDate;
