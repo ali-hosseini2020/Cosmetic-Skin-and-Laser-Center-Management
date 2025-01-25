@@ -3,6 +3,7 @@ package org.example.cosmeticskinandlasercenter.medical.service;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.example.cosmeticskinandlasercenter.appointment.domain.Appointment;
+import org.example.cosmeticskinandlasercenter.appointment.repository.AppointmentRepository;
 import org.example.cosmeticskinandlasercenter.common.exception.ResourceNotFoundException;
 import org.example.cosmeticskinandlasercenter.medical.domain.MedicalRecord;
 import org.example.cosmeticskinandlasercenter.medical.domain.TreatmentHistory;

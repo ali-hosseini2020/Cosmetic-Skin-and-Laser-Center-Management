@@ -6,6 +6,7 @@ import jakarta.validation.constraints.Past;
 import jakarta.validation.constraints.Pattern;
 import lombok.*;
 import org.example.cosmeticskinandlasercenter.appointment.domain.Appointment;
+import org.example.cosmeticskinandlasercenter.billing.domain.Invoice;
 import org.example.cosmeticskinandlasercenter.common.audit.AuditableEntity;
 import org.example.cosmeticskinandlasercenter.common.enums.BloodType;
 import org.example.cosmeticskinandlasercenter.common.enums.Gender;

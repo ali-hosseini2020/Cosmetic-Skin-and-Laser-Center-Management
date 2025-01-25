@@ -27,7 +27,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         Staff staff = staffRepository.findByEmail(username) // Or findByUsername if you use username
                 .orElseThrow(() -> new UsernameNotFoundException("User not found with username: " + username));
 
-        List<GrantedAuthority> authorities = staff.getStaffRoles().stream() // Assuming Staff has a getStaffRoles() that returns a list of roles (enums or strings)
+        List<GrantedAuthority> authorities = staff.getStaffRoles().stream() //getStaffRole Assuming Staff has a getStaffRoles() that returns a list of roles (enums or strings)
                 .map(role -> new SimpleGrantedAuthority("ROLE_" + role.name())) // "ROLE_" prefix is convention for Spring Security roles
                 .collect(Collectors.toList());
 
