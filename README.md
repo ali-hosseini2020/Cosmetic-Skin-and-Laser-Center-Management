@@ -1,8 +1,12 @@
 Cosmetic Skin and Laser Center Management
+
 Introduction
+
 The Cosmetic Skin and Laser Center Management system is a comprehensive software solution designed to streamline the operations of cosmetic clinics and laser treatment centers.
 This application helps manage appointments, treatments, staff, patients, billing, inventory, and more, offering an efficient way to handle day-to-day operations
+
 🚀 Features
+
 Appointment Management
 Schedule, reschedule, and track patient appointments with ease.
 Patient Records
