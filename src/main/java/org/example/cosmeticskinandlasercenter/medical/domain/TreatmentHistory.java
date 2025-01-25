@@ -35,7 +35,7 @@ public class TreatmentHistory extends AuditableEntity {
     @JoinColumn(name = "staff_id")
     private Staff staff; // Staff member who performed the treatment
 
-    @ManyToOne (fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "appointment_id")
     private Appointment appointment; // Appointment during which treatment was performed
 
@@ -46,3 +46,4 @@ public class TreatmentHistory extends AuditableEntity {
 
     @Column(length = 1000)
     private String outcome; // Result or outcome of the treatment
+}
